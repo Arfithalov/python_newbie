@@ -5,3 +5,10 @@ if right_this_minute in odds:
     print("This minute seems odd.")
 else:
     print("Not an odd minute.")
+today = datetime.today()
+if today == 'Saturday':
+    print("Hurray!")
+elif today == 'Monday':
+    print("Oh my God...")
+else:
+    print("Just a usual day.")
