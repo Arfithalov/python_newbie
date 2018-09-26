@@ -19,7 +19,6 @@ print()
 # song about many dogs
 word2 = "angry dogs"
 for num2 in range(0, 11, +1):
-
     if num2 == 0:
         print("No", word2, "in the room so far.")
     elif num2 == 1:
@@ -27,4 +26,5 @@ for num2 in range(0, 11, +1):
         print(num2, word3, "in the room.")
     else:
         print(num2, word2, "in the room.")
+    print("More are coming! Beware!")
     print()
