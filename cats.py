@@ -16,7 +16,7 @@ for num in range(10, 0, -1):
     print()
 print()
 
-# song about many dogs
+# song about dogs
 word2 = "angry dogs"
 for num2 in range(0, 11, +1):
     if num2 == 0:
@@ -28,3 +28,7 @@ for num2 in range(0, 11, +1):
         print(num2, word2, "in the room.")
     print("More are coming! Beware!")
     print()
+print()
+
+# reader's comment
+i = input("What do you think about these songs?")
